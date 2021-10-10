@@ -9,16 +9,16 @@
 
 ## Questions
 1. Write the command (or commands) that will display the following message 'Hello from the command line.'
-<your-answer-here>
+Echo "Hello from the command line"
 
 2. Write the command (or commands) that will create a file named 'hello-world.txt'.
-<your-answer-here>
+Touch hello-world.txt
 
 3. Write the command (or commands) that will create a folder named 'my-new-folder' in _current_ directory.
-<your-answer-here>
+cd . && mkdir my-new-folder
 
 4. Write the command (or commands) that will attempt to delete a folder named 'my-nonexistent-folder' and display the following message when the commands _fails_: 'Whoops, cannot delete a folder that does not exist'.
-<your-answer-here>
+rmdir my-nonexistent-folder || echo "Whoops, cannot delete a folder that does not exist"
 
 5. Write the command (or commands) that will navigate to your desktop, and then to the parent folder of the desktop.
-<your-answer-here>
+cd ~/desktop && cd ..
